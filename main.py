@@ -17,7 +17,7 @@ class mycalculator:
       self.button.place(x=90, y=50)
       self.button = tk.Button(self.root, text="3", height=10, width=10)
       self.button.place(x=160, y=50)
-      self.button = tk.Button(self.root, text="4", height=10 width=10)
+      self.button = tk.Button(self.root, text="4", height=10, width=10)
       self.button.place(x=20, y=120)
       self.button = tk.Button(self.root, text="5", height=10, width=10)
       self.button.place(x=90, y=120)
