@@ -7,7 +7,7 @@ class mycalculator:
       self.label_text = tk.StringVar()
       self.Label_text.set("Hello DIP01")
 
-      self.root.geometry ("300x300")
+      self.root.geometry ("300x370")
       self.root.title("mycalculator")
 
       self.label = tk.Label(self.root, text="hello world!", font=('Arial', 18)) 
