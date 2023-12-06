@@ -5,7 +5,7 @@ class mycalculator:
 
       self.root = tk.Tk()
 
-      self.root.geometry ("300x300")
+      self.root.geometry ("300x370")
       self.root.title("mycalculator")
 
       self.label = tk.Label(self.root, text="hello world!", font=('Arial', 18)) 
