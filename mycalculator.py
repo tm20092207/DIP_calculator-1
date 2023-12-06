@@ -49,6 +49,7 @@ class mycalculator:
       self.button.place(x=215, y=230)
       self.button = tk.Button(self.root, text="=", height=3, width=7)
       self.button.place(x=215, y=290)
+      self.button.bind("<Button-1>", self.trigger_event)
 
 
       self.root.mainloop()
@@ -56,9 +57,6 @@ class mycalculator:
     
     def trigger_event(self, event):
       print(event)
-      self.title = "Test"
-      self.root.title(self.title)
-      self.label_text.set("DIP 02")
-      self.label.pack()
+
 
 mycalculator()
