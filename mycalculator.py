@@ -5,7 +5,7 @@ class mycalculator:
 
       self.root = tk.Tk()
 
-      self.root.geometry ("300x300")
+      self.root.geometry ("300x380")
       self.root.title("mycalculator")
 
       self.label = tk.Label(self.root, text="hello world!", font=('Arial', 18)) 
@@ -52,5 +52,13 @@ class mycalculator:
 
 
       self.root.mainloop()
+    
+    
+    def trigger_event(self, event):
+      print(event)
+      self.title = "Test"
+      self.root.title(self.title)
+      self.label_text.set("DIP 02")
+      self.label.pack()
 
 mycalculator()
